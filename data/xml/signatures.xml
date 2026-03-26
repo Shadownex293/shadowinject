@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<signatures>
+    <dbms name="MySQL">
+        <signature>mysql</signature>
+        <signature>maria</signature>
+        <signature>SQL syntax.*MySQL</signature>
+    </dbms>
+    <dbms name="PostgreSQL">
+        <signature>postgresql</signature>
+        <signature>pg_</signature>
+        <signature>syntax error at or near</signature>
+    </dbms>
+    <dbms name="MSSQL">
+        <signature>microsoft</signature>
+        <signature>sql server</signature>
+        <signature>odbc</signature>
+    </dbms>
+    <dbms name="Oracle">
+        <signature>oracle</signature>
+        <signature>ora-</signature>
+    </dbms>
+    <dbms name="SQLite">
+        <signature>sqlite</signature>
+    </dbms>
+</signatures>

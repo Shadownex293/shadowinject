@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<banners>
+    <dbms name="MySQL">
+        <banner>5\.\d+\.\d+</banner>
+        <banner>8\.\d+\.\d+</banner>
+    </dbms>
+    <dbms name="PostgreSQL">
+        <banner>PostgreSQL \d+\.\d+</banner>
+    </dbms>
+    <dbms name="MSSQL">
+        <banner>Microsoft SQL Server \d+</banner>
+    </dbms>
+    <dbms name="Oracle">
+        <banner>Oracle Database \d+[a-z]?</banner>
+    </dbms>
+</banners>

